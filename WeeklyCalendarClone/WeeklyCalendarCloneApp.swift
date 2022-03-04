@@ -11,7 +11,7 @@ import SwiftUI
 struct WeeklyCalendarCloneApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(calendar: Calendar(identifier: .gregorian))
         }
     }
 }
